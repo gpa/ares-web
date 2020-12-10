@@ -49,11 +49,6 @@ export default Vue.extend({
   computed: {
     contentInfo: function() {
       return this.$store.state.content.selectedContentInfo;
-    },
-    attributes: function() {
-      return this.$store.state.content.selectedContentInfo
-        ? this.$store.state.content.selectedContentInfo.attributes
-        : [];
     }
   },
   created: async function() {

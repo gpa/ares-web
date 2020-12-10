@@ -3,11 +3,4 @@ export interface ContentInfo {
   type: string;
   src: string;
   preview?: string;
-  attributes?: [
-    {
-      id: number;
-      key: string;
-      value: string;
-    }
-  ];
 }
